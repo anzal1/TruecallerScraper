@@ -1,0 +1,17 @@
+{
+  "name": "truescraper",
+  "version": "1.0.0",
+  "description": "A bulk details scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon index.js"
+  },
+  "author": "Anzal Husain Abidi",
+  "license": "MIT",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "nodemon": "^2.0.20",
+    "truecallerjs": "^1.1.2"
+  }
+}
