@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "convert-excel-to-json": "^1.7.0",
+    "excel4node": "^1.8.0",
     "nodemon": "^2.0.20",
     "truecallerjs": "^1.1.2"
   }
