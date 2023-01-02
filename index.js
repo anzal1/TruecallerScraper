@@ -1,7 +1,6 @@
 const truecallerjs = require("truecallerjs");
 var countryCode = "IN";
-var installationId =
-  "a1i0e--cn-RmBk3-DXWKxNrSgYrInISRrfWhC03XmuT-f-cBzrYoSET-n6dKZEq-";
+var installationId = "Enter you installation id here";
 const excelToJson = require("convert-excel-to-json");
 const result = excelToJson({
   sourceFile: "phone_numbers.xlsx",
