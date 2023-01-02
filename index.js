@@ -1,7 +1,7 @@
 const truecallerjs = require("truecallerjs");
 var countryCode = "IN";
 var installationId =
-  "a1i0Q--cldZyM-GF1a2SoqbWzmC0t97WeH0cRaTiGr3zuKhWL9dIfZuAk6dF7kad";
+  "";
 const excelToJson = require("convert-excel-to-json");
 const result = excelToJson({
   sourceFile: "phone_numbers.xlsx",
@@ -16,7 +16,7 @@ searchData.shift();
 // const timer = (ms) => new Promise((res) => setTimeout(res, ms));
 var data = [];
 var start = 0;
-var end = start + 10;
+var end = start + 100;
 async function loadData() {
   // var start = 0;
   // for (var start = 0; start < searchData.length; start += 10) {
@@ -41,14 +41,6 @@ async function loadData() {
 // write the results into a excel file after with name , phone number, email and city name
 
 loadData();
-// data = JSON.parse(data);
-var fs = require("fs");
-fs.writeFile("result.json", data.toString(), function (err) {
-  if (err) {
-    return console.log(err);
-  }
-  console.log("The file was saved!");
-});
 
 var excel = require("excel4node");
 var wb = new excel.Workbook();
